@@ -8,7 +8,7 @@ jobs:
     - name: firstJob script
       shell: bash
       run: echo Hello World! This is the first job
-    - uses: action/checkout@v4
+    - uses: actions/checkout@v4
     - name: Print to Log
       id: print-to-log
       uses: actions/hello-world-javascript-action@main
